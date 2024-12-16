@@ -1,0 +1,88 @@
+ul.menu {
+    list-style-type: none; /* Quita los puntos de viñeta predeterminados de la lista */
+    display: flex; /* Usa Flexbox para alinear los elementos en línea horizontal */
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+    background-color: #4f31f9; /* Establece el color de fondo del menú en gris oscuro */
+  }
+
+  ul.menu li {
+    margin: 0; /* Quita cualquier margen externo del elemento <li> */
+    padding: 0; /* Quita cualquier relleno interno del elemento <li> */
+  }
+  
+  ul.menu li a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del elemento <li> */
+    color: white; /* Define el color del texto del enlace en blanco */
+    padding: 30px 30px; /* Agrega espacio alrededor del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del texto del enlace */
+    text-align: center; /* Centra el texto dentro del enlace */
+  }
+  
+  ul.menu li a:hover {
+    background-color: #1f03c1; /* Cambia el fondo a gris medio cuando el ratón pasa sobre el enlace */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fondo crema */
+    color: #333;
+    text-align: center;
+}
+/* Sección de ejemplos */
+.ejemplos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ejemplo {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.ejemplo:hover {
+    transform: scale(1.05); /* Efecto al pasar el ratón */
+}
+
+.ejemplo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ejemplo h1 {
+    font-size: 2em;
+    color: #0224af;
+    margin: 10px 0;
+}
+
+.ejemplo p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+button:hover {
+    background-color: #0224af;
+}
+
+/* Pie de página */
+footer {
+    background-color: #4f31f9;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.compra img {
+    width: 50%;
+    border-radius: 10px;
+}
+.compra:hover {
+    transform: scale(1.05); /* Efecto al pasar el ratón */
+}
